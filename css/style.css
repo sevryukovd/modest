@@ -1,3 +1,5 @@
+
+
 body {
     min-width: 1170px;
     margin: 0;
@@ -34,7 +36,6 @@ h4 {
 
 .container {
     margin: 0 auto;
-    padding: 0 10px;
     width: 1140px;
 }
 
@@ -45,15 +46,20 @@ h4 {
 }
 
 .main-header {
+    min-height: 81px;
     background-color: #1d2126;
 }
 
 .header-logo {
     float: left;
+    margin-top: 31px;
+    margin-left: -1px;
 }
 
 .main-navigation {
     float: right;
+    margin-top: 20px;
+    margin-right: 7px;
 }
 
 .main-navigation ul {
@@ -64,13 +70,38 @@ h4 {
 }
 
 .main-navigation li {
-    display: inline-block;
     float: left;
+    display: inline-block;
     vertical-align: top;
+    width: 80px;
+    margin-left: 10px;
     font-size: 14px;
     line-height: 42px;
-    margin-right: 46px;
     text-transform: uppercase;
+}
+
+.main-navigation li:last-child {
+    margin-right: 0;
+}
+
+.main-navigation a {
+    padding: 5px 8px;
+    border: 2px solid #1d2126;
+    text-align: center;
+    color: #a4aead;
+    text-decoration: none;
+}
+
+.main-navigation .active {
+    border: 2px solid #23b7a4;
+    border-radius: 5px;
+    color: #23b7a4;
+}
+
+.main-navigation a:hover {
+    border: 2px solid #5b6168;
+    border-radius: 5px;
+    color: #a4aead;
 }
 
 .slider {
@@ -160,7 +191,6 @@ footer {
 }
 
 .social-footer ul {
-    
     margin: 0;
     padding: 0;
     font-size: 0;
@@ -168,8 +198,8 @@ footer {
 }
 
 .social-footer li {
-display: inline-block;
-        font-size: 16px;
+    display: inline-block;
+    font-size: 16px;
     line-height: 26px;
     margin-right: 10px;
 }
