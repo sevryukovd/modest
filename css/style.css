@@ -1,4 +1,11 @@
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */
 
+@font-face {
+    font-family: "Socialico";
+    src: local("Socialico"), url("../fonts/socialico/Socialico.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
     min-width: 1170px;
@@ -15,6 +22,7 @@ h2 {
     font-family: "Quattrocento Sans", "Arial", sans-serif;
     font-size: 36px;
     line-height: 42px;
+    font-weight: 200;
     text-transform: uppercase;
     color: #292f36;
 }
@@ -53,7 +61,6 @@ h4 {
 .header-logo {
     float: left;
     margin-top: 31px;
-    margin-left: -1px;
 }
 
 .main-navigation {
@@ -74,7 +81,7 @@ h4 {
     display: inline-block;
     vertical-align: top;
     width: 80px;
-    margin-left: 10px;
+    margin-left: 11px;
     font-size: 14px;
     line-height: 42px;
     text-transform: uppercase;
@@ -85,7 +92,7 @@ h4 {
 }
 
 .main-navigation a {
-    padding: 5px 8px;
+    padding: 3px 10px;
     border: 2px solid #1d2126;
     text-align: center;
     color: #a4aead;
@@ -105,6 +112,7 @@ h4 {
 }
 
 .slider {
+    margin-bottom: 80px;
     width: 100%;
     height: 660px;
     background-image: url("../img/welcome-banner.png");
@@ -113,25 +121,205 @@ h4 {
     background-color: #3a454d;
 }
 
+.slider h2 {
+    position: absolute;
+    margin-top: 218px;
+    color: #fff;
+}
+
+.slider p {
+    position: absolute;
+    margin-top: 276px;
+    width: 650px;
+}
+
+.btn {
+    padding: 6px 22px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-family: "Quattrocento Sans", "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn:hover {
+    border: 2px solid #23b7a4;
+    background-color: #23b7a4;
+    color: #fff;
+}
+
+.slider .btn {
+    position: absolute;
+    margin-top: 366px;
+}
+
+.video-tour-btn {
+    margin-left: 135px;
+    padding: 6px 20px;
+}
+
+.pagination {
+    float: right;
+    margin-top: 611px;
+}
+
+.pagination a {
+    display: inline-block;
+    margin-right: 4px;
+    width: 9px;
+    height: 9px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.pagination a:last-child {
+    margin-right: 0;
+}
+
+.enabled {
+    background-color: #fff;
+}
+
+.about {
+    margin-bottom: 100px;
+}
+
 .about-column-left {
     float: left;
     width: 650px;
 }
 
+.about-column-left h2 {
+    padding-left: 15px;
+    border-left: 10px solid #e1e6ea;
+    line-height: 35px;
+}
+
+.about-first-paragraph {
+    margin-top: 55px;
+}
+
+.about-second-paragraph {
+    margin-top: 25px;
+}
+
 .about-column-right {
     float: right;
+    margin-top: 85px;
     width: 450px;
 }
 
-.team-photo {
-    float: left;
-    margin-right: 30px;
+.about-column-right ol {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    list-style-type: none;
+    counter-reset: li;
 }
 
-.team-photo:last-child {
+.about-column-right li {
+    position: relative;
+    margin-bottom: 17px;
+    padding-left: 62px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.about-column-right li:before {
+    position: absolute;
+    content: "0" counter(li);
+    counter-increment: li;
+    left: -7px;
+    bottom: 31px;
+    min-width: 50px;
+    min-height: 50px;
+    background-color: #23b7a4;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    font-family: "Quattrocento Sans", "Arial", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.social {
+    float: left;
+}
+
+.social ul {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    list-style: none;
+}
+
+.social li {
+    display: inline-block;
+    margin-top: 48px;
+    margin-right: 1px;
+    font-family: "Socialico", "Arial", sans-serif;
+    font-size: 36px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.social a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    text-decoration: none;
+    background-color: #c8cdd0;
+    color: #fff;
+}
+
+.social a:hover {
+    background-color: #d0d5d9;
+}
+
+.line {
+    margin-bottom: 80px;
+    width: 100%;
+    height: 1px;
+    background-color: #dde1e4;
+    box-shadow: 0 0 2px #dde1e4;
+}
+
+.team {
+    margin-bottom: 100px;
+}
+.team h2{
+    margin-bottom: 60px;
+    padding-left: 15px;
+    border-left: 10px solid #e1e6ea;
+    line-height: 35px;
+    vertical-align:t
+}
+.team-item {
+    float: left;
+    margin-right: 30px;
+    height: 374px;
+    background-color: #e1e6ea;
+}
+
+.team-item:last-child {
     margin-right: 0;
 }
 
+.name {
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+.function {
+    margin-left: 20px;
+}
+
+.team-item {
+    
+}
 .works {
     background-color: #3a454d;
 }

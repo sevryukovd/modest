@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Modest</title>
     <meta name="description" content="Modest">
-    <link href='https://fonts.googleapis.com/css?family=Quattrocento+Sans:700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Quattrocento+Sans:400' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -37,8 +37,13 @@
         <div class="container cliarfix">
             <h2>Welcome to our marketplace</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor non, ornare sagittis dolor. Nulla vestibulu lacus ...</p>
-            <a class="btn" href="#">view more</a>
-            <a class="btn" href="#">video tour</a>
+            <a class="btn view-more-btn" href="#">view more</a>
+            <a class="btn video-tour-btn" href="#">video tour</a>
+            <div class="pagination">
+                <a href="#1"></a>
+                <a class="enabled" href="#2"></a>
+                <a href="#3"></a>
+            </div>
         </div>
     </div>
 
@@ -47,23 +52,23 @@
             <div class="about clearfix">
                 <div class="about-column-left">
                     <h2>We are modest.</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor non, ornare sagittis dolor. Nulla vestibulu lacus sed molestie gravida. Crferm entum quismagna congue, vel sodales arcu vestibulum. Nunc lobortis dui magna, quis lacusullamcorper at. </p>
-                    <p>
-                        Phasellus sollicitudin ante eros ornare, sit amet luctus lorem semper. Suspendisse posuere, quamdictum consectetur, augue metus pharetra tellus, eu feugiatloreg egetnisi. Cras ornare bibendum ante, ut bibendum odio convallis eget. vel sodales arcu vestibulum
+                    <p class="about-first-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor non, ornare sagittis dolor. Nulla vestibulu lacus sed molestie gravida. Crferm entum quismagna congue, vel sodales arcu vestibulum. Nunc lobortis dui magna, quis lacusullamcorper at. </p>
+                    <p class="about-second-paragraph">
+                        Phasellus sollicitudin ante eros ornare, <strong>sit amet luctus lorem semper.</strong> Suspendisse posuere, quamdictum consectetur, augue metus pharetra tellus, eu feugiatloreg egetnisi. Cras ornare bibendum ante, ut bibendum odio convallis eget. vel sodales arcu vestibulum
                     </p>
 
                     <div class="social">
                         <ul>
-                            <li><a href="#">FB</a></li>
-                            <li><a href="#">TW</a></li>
-                            <li><a href="#">GP</a></li>
-                            <li><a href="#">DR</a></li>
-                            <li><a href="#">BE</a></li>
+                            <li><a href="#">F</a></li>
+                            <li><a href="#">L</a></li>
+                            <li><a href="#">G</a></li>
+                            <li><a href="#">D</a></li>
+                            <li><a href="#">E</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="about-column-right">
-                    <ul>
+                    <ol>
                         <li>
                             <h3>Dedication to the custome</h3>
                             <p>Integer vel lacus non dui ullamcorper venenatis. Aliquam vitae tristique nisi, vitae ullamcorper risus. </p>
@@ -76,19 +81,38 @@
                             <h3>Increase happiness</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend laoreet euismod.</p>
                         </li>
-                    </ul>
+                    </ol>
                 </div>
             </div>
+        </div>
+        <div class="line"></div>
 
+        <div class="container">
             <div class="team clearfix">
                 <h2>Meet the team.</h2>
-                <img class="team-photo" src="img/Bromley.jpg" width="263" height="300">
-                <img class="team-photo" src="img/Torres.jpg" width="262" height="300">
-                <img class="team-photo" src="img/Gillette.jpg" width="263" height="300">
-                <img class="team-photo" src="img/Reed.jpg" width="262" height="300">
+                <div class="team-item">
+                    <img src="img/Bromley.jpg" width="263" height="300" alt="Gloria Bromle">
+                    <div class="name">Gloria Bromle</div>
+                    <div class="function">CEO and Founder</div>
+                </div>
+                <div class="team-item">
+                    <img src="img/Torres.jpg" width="262" height="300" alt="Paul Torres">
+                    <div class="name">Gloria Bromle</div>
+                    <div class="function">Head of Development</div>
+                </div>
+                <div class="team-item">
+                    <img src="img/Gillette.jpg" width="263" height="300" alt="Judith Gillette">
+                    <div class="name">Judith Gillette</div>
+                    <div class="function">Graphic Desinger</div>
+                </div>
+                <div class="team-item">
+                    <img src="img/Reed.jpg" width="262" height="300" alt="Delores Reed">
+                    <div class="name">Delores Reed</div>
+                    <div class="function">Client Service Director</div>
+                </div>
             </div>
-
         </div>
+
 
         <div class="works clearfix">
             <div class="container">
@@ -175,19 +199,19 @@
             </div>
         </div>
         <div class="contacts clearfix">
-            
+
             <div class="container">
-            <h2>Stay in touch.</h2>
+                <h2>Stay in touch.</h2>
             </div>
             <img class="map" src="img/map.jpg" width="1900" height="346">
- <div class="container">
-     <div class="contact-information clearfix">
-            <span>Contact information</span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique nec dolor non, ornare sagittis dolor. Nulla vestibulum lacus sed molestie gravida. </p>
-            <p>Cras fermentum elit quis magna congue, vel sodales arcu vestibulum. Nunc lobortis dui magna, quis dapibus lacus</p>
-         </div>
-            <a class="btn" href="#">Send massage</a>
+            <div class="container">
+                <div class="contact-information clearfix">
+                    <span>Contact information</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique nec dolor non, ornare sagittis dolor. Nulla vestibulum lacus sed molestie gravida. </p>
+                    <p>Cras fermentum elit quis magna congue, vel sodales arcu vestibulum. Nunc lobortis dui magna, quis dapibus lacus</p>
                 </div>
+                <a class="btn" href="#">Send massage</a>
+            </div>
         </div>
     </div>
 
