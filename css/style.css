@@ -61,6 +61,7 @@ h4 {
 .header-logo {
     float: left;
     margin-top: 31px;
+    margin-left: -1px;
 }
 
 .main-navigation {
@@ -428,23 +429,61 @@ h4 {
 .show-more-btn {
     margin-top: 30px;
     margin-left: 496px;
-        padding: 6px 20px;
+    padding: 6px 20px;
     text-align: center;
 }
-.what-we-do-item {
-    float: left;
-    width: 260px;
-    height: 220px;
-    margin-right: 30px;
-    margin-bottom: 20px
+
+.what-we-do {
+    margin-bottom: 71px;
 }
 
-.what-we-do-item:nth-child(4n) {
-    margin-right: 0;
+.what-we-do h2 {
+    margin-top: 80px;
+    margin-bottom: 90px;
+    padding-left: 15px;
+    border-left: 10px solid #e1e6ea;
+    line-height: 35px;
+}
+
+.what-we-do-item img {
+    display: block;
+    margin: 0 auto;
+}
+
+.what-we-do-item h4 {
+    margin-top: 29px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.what-we-do-item p {
+    text-align: center;
+}
+
+.what-we-do-item {
+    float: left;
+    width: 266px;
+    height: 220px;
+    margin-right: 25px;
+    margin-bottom: 90px
+}
+
+.what-we-do-item:nth-child(4n+1) {
+    margin-right: 0px;
 }
 
 .features {
+    padding-top: 85px;
+    padding-bottom: 117px;
     background-color: #3a454d;
+}
+
+.features h2 {
+    margin-bottom: 60px;
+    padding-left: 15px;
+    border-left: 10px solid #4e5a62;
+    line-height: 35px;
+    color: #fff;
 }
 
 .features-item {
@@ -455,6 +494,24 @@ h4 {
 
 .features-item:last-child {
     margin-right: 0px;
+}
+
+.features-item h3 {
+    margin-top: 35px;
+    color: #fff;
+}
+
+.features-item p {
+    margin-top: 7px;
+    color: #dcdfe1;
+}
+
+.contacts h2 {
+    margin-top: 64px;
+    margin-bottom: 60px;
+    padding-left: 15px;
+    border-left: 10px solid #e1e6ea;
+    line-height: 35px;
 }
 
 .map {
