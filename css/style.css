@@ -514,6 +514,10 @@ h4 {
     line-height: 35px;
 }
 
+.map-container {
+    position: relative;
+}
+
 .map {
     display: block;
     margin: 0 auto;
@@ -524,12 +528,128 @@ h4 {
     width: 545px;
 }
 
+.contact-title {
+    margin-top: 55px;
+    margin-left: 10px;
+    font-family: "Quattrocento Sans", "Arial", sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #292f36;
+}
+
+.contact-information p {
+    margin: 27px 0;
+}
+
+.form-container {
+    position: absolute;
+    top: 217px;
+    left: 967px;
+    width: 505px;
+    height: 340px;
+    padding: 23px 25px;
+    background-color: white;
+}
+
+.massage-form label {
+    display: block;
+    width: 110px;
+    margin-bottom: 8px;
+    font-family: "Quattrocento Sans", "Arial", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.name-label {
+    margin-left: 10px;
+}
+
+.email-label {
+    float: right;
+    margin-right: 129px;
+    margin-top: -33px;
+}
+
+.massage-form input {
+    height: 38px;
+    width: 226px;
+    padding-left: 10px;
+    background-color: #eaeef1;
+    border: 2px solid #eaeef1;
+    border-radius: 3px;
+}
+
+.massage-form input[type="text"] {
+    margin-left: 5px;
+    margin-top: -7px;
+}
+
+.massage-form input[type="email"] {
+    float: right;
+    margin-top: -44px;
+    margin-right: 5px;
+}
+
+.text-label {
+    margin-top: 23px;
+    margin-left: 12px;
+    4
+}
+
+.massage-form textarea {
+    margin-left: 5px;
+    margin-top: -7px;
+    width: 479px;
+    height: 151px;
+    padding-left: 10px;
+    background-color: #eaeef1;
+    border: 2px solid #eaeef1;
+    border-radius: 3px;
+}
+
+.send-msg-btn {
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 25px;
+    padding: 6px 22px;
+    border: 2px solid #23b7a4;
+    border-radius: 5px;
+    font-family: "Quattrocento Sans", "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #23b7a4;
+    color: #fff;
+}
+
+.send-msg-btn:hover {
+    background-color: #fff;
+    border: 2px solid #8d8f92;
+    color: #8d8f92;
+}
+
 footer {
+    margin-top: 69px;
+    min-height: 95px;
     background-color: #3a454d;
 }
 
+footer p {
+    float: left;
+    display: inline-block;
+    margin-top: 35px;
+    margin-left: 1px;
+    font-size: 14px;
+    color: #fff;
+}
+
 .social-footer {
-    float: right
+    float: right;
+margin-right: -5px;
+    margin-top: 36px;
 }
 
 .social-footer ul {
@@ -541,7 +661,33 @@ footer {
 
 .social-footer li {
     display: inline-block;
-    font-size: 16px;
-    line-height: 26px;
     margin-right: 10px;
+    font-family: "Socialico", "Arial", sans-serif;
+    font-size: 28px;
+    line-height: 26px;
+    text-align: center;
 }
+
+.social-footer li:last-child {
+    margin-right: 0px;
+}
+
+.social-footer a {
+    display: block;
+    width: 25px;
+    height: 25px;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
